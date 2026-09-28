@@ -1,4 +1,17 @@
 # Java Autobus Class code
+## Task
+    +-----------------------------------+
+    |              Autobus              |
+    +-----------------------------------+
+    | - kennzeichen: String = "W-1234A" |
+    | - sitzplatze: int = 29            |
+    | - anhanger: boolean = false       |
+    +-----------------------------------+
+    | + Autobus(...)                    |
+    | + Autobus()                       |
+    | + get/set                         |
+    +-----------------------------------+
+
 ## Code Structure
 This code is structed as following:
 * Class
