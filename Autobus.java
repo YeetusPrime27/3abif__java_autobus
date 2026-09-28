@@ -5,6 +5,32 @@ public class Autobus {
     private int sitzplatze;
     private boolean anhanger;
 
+    // constructor
+    public Autobus()
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(29);
+        setAnhanger(false);
+    }
+    public Autobus(boolean neuAnhanger)
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(29);
+        setAnhanger(neuAnhanger);
+    }
+    public Autobus(int neuSitzplatze, boolean neuAnhanger)
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(neuAnhanger);
+    }
+      public Autobus(String neuKennzeichen, int neuSitzplatze, boolean neuAnhanger)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(neuAnhanger);
+    }
+    
     // getMethoden
     public String getKennzeichen()
     {
